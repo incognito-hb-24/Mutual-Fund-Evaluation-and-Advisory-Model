@@ -1,1 +1,26 @@
+name: Mutual-Fund-Evaluation-and-Advisory-Model
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.10
+  - numpy
+  - pandas
+  - matplotlib
+  - seaborn
+  - scikit-learn
+  - xgboost
+  - lightgbm
+  - tqdm
+  - openpyxl
+  - statsmodels
+  - scipy
+  - pip
+  - pip:
+      - yfinance
+      - plotly
+      - shap
+      - tabulate
+      - notebook
+      - jupyterlab
 
