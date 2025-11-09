@@ -10,72 +10,71 @@ The model is built in phases to ensure transparency, interpretability, and full 
 ---
 
 ##  Repository Structure <br>
-
-Mutual-Fund-Evaluation-and-Advisory-Model/
-│
-├── README.md 
-├── LICENSE 
-├── .gitignore 
-├── environment.yml 
-├── requirements.txt 
-├── make_reproduce.sh 
-│
-├── data/
-│ ├── raw/ 
-│ ├── processed/ 
-│ │ ├── clean_master_union.csv
-│ │ ├── clean_with_features.csv
-│ │ ├── clf_oof_predictions.csv
-│ │ ├── results_summary_classification.csv
-│ │ ├── bt_tranche_log.csv
-│ │ ├── bt_robustness_grid.csv
-│ │ └── ...
-│ └── README.md 
-│
-├── notebooks/
-│ ├── phase1_feature_engineering.ipynb
-│ ├── phase2_feature_selection.ipynb
-│ ├── phase3_model_training.ipynb
-│ ├── phase4_diagnostics.ipynb
-│ └── phase5_backtesting.ipynb
-│
-├── src/
-│ ├── init.py
-│ ├── utils_io.py 
-│ ├── metrics_eval.py 
-│ ├── feature_build.py 
-│ ├── models_train.py 
-│ ├── diagnostics.py 
-│ ├── portfolio_simulator.py 
-│ └── plot_utils.py 
-│
-├── reports/
-│ ├── figures/ 
-│ │ ├── pr_auc_ci.png
-│ │ ├── cost_curve_ensemble.png
-│ │ ├── lift_by_bucket_ensemble.png
-│ │ ├── bt_equity_base.png
-│ │ ├── bt_equity_vs_zero.png
-│ │ └── bt_robust_equity.png
-│ ├── pr_auc_ci.csv
-│ ├── ablation_window_macro.csv
-│ ├── bt_metrics.json
-│ ├── bt_tranche_log.csv
-│ ├── bt_turnover_stats.csv
-│ ├── bt_robustness_grid.csv
-│ └── summary_dashboard.csv
-│
-├── models/
-│ ├── logit.pkl
-│ ├── xgb.pkl
-│ ├── lgb.pkl
-│ └── meta.json
-│
-└── docs/
-├── methodology_diagram.png
-├── results_summary_table.png
-└── paper_appendix.pdf
-
+<br>
+Mutual-Fund-Evaluation-and-Advisory-Model/   <br>
+│ <br>
+├── README.md   <br>
+├── LICENSE  <br>
+├── .gitignore <br>
+├── environment.yml   <br> 
+├── requirements.txt    <br>
+├── make_reproduce.sh    <br>
+│   <br>
+├── data/   <br>
+│ ├── raw/     <br>
+│ ├── processed/    <br>
+│ │ ├── clean_master_union.csv      <br>
+│ │ ├── clean_with_features.csv     <br>
+│ │ ├── clf_oof_predictions.csv     <br>
+│ │ ├── results_summary_classification.csv     <br>
+│ │ ├── bt_tranche_log.csv       <br>
+│ │ ├── bt_robustness_grid.csv      <br>
+│ │ └── ...      <br>
+│ └── README.md       <br>
+│             <br>
+├── notebooks/       <br>
+│ ├── phase1_feature_engineering.ipynb        <br>
+│ ├── phase2_feature_selection.ipynb          <br>
+│ ├── phase3_model_training.ipynb             <br>
+│ ├── phase4_diagnostics.ipynb                <br>
+│ └── phase5_backtesting.ipynb                <br>
+│              <br>
+├── src/          <br>
+│ ├── init.py         <br>
+│ ├── utils_io.py            <br>
+│ ├── metrics_eval.py           <br>
+│ ├── feature_build.py            <br>
+│ ├── models_train.py            <br>
+│ ├── diagnostics.py              <br>
+│ ├── portfolio_simulator.py          <br>
+│ └── plot_utils.py           <br>
+│        <br>
+├── reports/     <br>
+│ ├── figures/        <br>
+│ │ ├── pr_auc_ci.png           <br>
+│ │ ├── cost_curve_ensemble.png         <br>
+│ │ ├── lift_by_bucket_ensemble.png          <br>
+│ │ ├── bt_equity_base.png       <br>
+│ │ ├── bt_equity_vs_zero.png              <br>
+│ │ └── bt_robust_equity.png         <br>
+│ ├── pr_auc_ci.csv          <br>
+│ ├── ablation_window_macro.csv            <br>
+│ ├── bt_metrics.json             <br>
+│ ├── bt_tranche_log.csv            <br>
+│ ├── bt_turnover_stats.csv          <br>
+│ ├── bt_robustness_grid.csv           <br>
+│ └── summary_dashboard.csv              <br>
+│     <br>
+├── models/        <br>
+│ ├── logit.pkl     <br>
+│ ├── xgb.pkl      <br>
+│ ├── lgb.pkl       <br>
+│ └── meta.json         <br>
+│     <br>
+└── docs/         <br>
+├── methodology_diagram.png        <br>
+├── results_summary_table.png        <br>
+└── paper_appendix.pdf         <br>
 <br>
 Each folder and file has a clear purpose — ensuring that anyone reviewing or reproducing this project can follow the exact flow of data, modeling, and analysis from raw ingestion to portfolio outcomes. <br>
 
