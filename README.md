@@ -3,6 +3,7 @@
 
 ##  Overview <br>
 The **Mutual Fund Advisory & Evaluation Model (MLBA)** is a comprehensive end-to-end machine learning framework designed to evaluate, forecast, and simulate mutual fund performance using real-world data and economic indicators. <br>
+
 It combines data engineering, predictive modeling, diagnostic validation, and backtesting — providing an analytical foundation for fund recommendation and investment decision-making. <br>
 
 The model is built in phases to ensure transparency, interpretability, and full reproducibility. Each stage transforms data into deeper intelligence — starting from raw NAVs and ending with actionable portfolio-level insights. <br>
