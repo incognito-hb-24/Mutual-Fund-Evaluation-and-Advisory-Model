@@ -1,18 +1,1 @@
-# Python
-__pycache__/
-*.pyc
-.ipynb_checkpoints/
 
-# OS
-.DS_Store
-Thumbs.db
-
-# Big or private project data (never commit)
-data/raw/
-data/processed/
-models/
-reports/*.png
-reports/*.pdf
-
-# allow small CSV summaries in reports
-!reports/*.csv
