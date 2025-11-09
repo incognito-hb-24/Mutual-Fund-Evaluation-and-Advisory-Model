@@ -130,12 +130,12 @@ Each folder and file has a clear purpose — ensuring that anyone reviewing or r
 
 ##  Visual Summaries <br>
 
-| **Visualization**           | **Description**                                             |  <br> 
-| --------------------------- | ----------------------------------------------------------- |   <br>
-| bt_equity_base.png          | Strategy equity curve vs zero-excess baseline               |   <br>
-| bt_robust_equity.png        | Robustness of returns across portfolio sizes and thresholds |   <br>
-| cost_curve_ensemble.png     | Cost curve showing precision-recall trade-off               |  <br>
-| lift_by_bucket_ensemble.png | Lift analysis showing performance across score deciles      |  <br>
+| **Visualization**           | **Description**                                             |  
+| --------------------------- | ----------------------------------------------------------- |   
+| bt_equity_base.png          | Strategy equity curve vs zero-excess baseline               |   
+| bt_robust_equity.png        | Robustness of returns across portfolio sizes and thresholds |   
+| cost_curve_ensemble.png     | Cost curve showing precision-recall trade-off               |  
+| lift_by_bucket_ensemble.png | Lift analysis showing performance across score deciles      | 
 <br>
 
 **These visuals form the analytical backbone of the project’s evaluation and validation.** <br>
@@ -144,11 +144,11 @@ Each folder and file has a clear purpose — ensuring that anyone reviewing or r
 
 ##  Data Overview <br>
 
-| **Type**                 | **Description**                         | **Source**               |  <br>
-| ------------------------ | --------------------------------------- | ------------------------ |   <br>
-| NAV / TRI                | Mutual Fund NAVs and Total Return Index | AMFI / Yahoo Finance     |   <br>
-| Macroeconomic Indicators | VIX, USD/INR, Gold, Brent, G-sec yield  | RBI, FRED, Investing.com |  <br>
-| Benchmarks               | NIFTY 50 TRI and Sectoral Benchmarks    | NSE India                |   <br>
+| **Type**                 | **Description**                         | **Source**               |  
+| ------------------------ | --------------------------------------- | ------------------------ |   
+| NAV / TRI                | Mutual Fund NAVs and Total Return Index | AMFI / Yahoo Finance     |   
+| Macroeconomic Indicators | VIX, USD/INR, Gold, Brent, G-sec yield  | RBI, FRED, Investing.com |  
+| Benchmarks               | NIFTY 50 TRI and Sectoral Benchmarks    | NSE India                |   
 <br>
 
 **All data was collected for academic purposes and preprocessed for consistency and continuity.** <br>
