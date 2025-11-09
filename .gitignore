@@ -1,1 +1,47 @@
+# Python cache and build artifacts
+__pycache__/
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
 
+# Jupyter and Colab outputs
+*.ipynb_checkpoints
+.ipynb_checkpoints/
+*.log
+*.out
+
+# Data and models (keep lightweight samples only)
+data/raw/*
+!data/raw/README.md
+data/processed/*
+!data/processed/README.md
+models/*
+reports/figures/*
+reports/*.csv
+reports/*.json
+!reports/README.md
+
+# Virtual environments
+.venv/
+.env/
+env/
+venv/
+*.swp
+
+# OS and IDE junk
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Colab / temporary files
+*.bak
+*.tmp
+*.zip
+*.tar.gz
+*.pkl
+*.h5
+*.sav
