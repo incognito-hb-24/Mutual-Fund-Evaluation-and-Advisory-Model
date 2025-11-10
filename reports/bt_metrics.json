@@ -1,0 +1,9 @@
+{
+  "annualized_excess_return": 3.7802084684444383e+21,
+  "sharpe": 1.5219807066217415,
+  "max_drawdown": -0.33403139460207754,
+  "hit_rate": 0.6473214285714286,
+  "observations": 448.0,
+  "avg_gap_days": 7.516778523489933,
+  "avg_turnover": 0.43561470843350036
+}
