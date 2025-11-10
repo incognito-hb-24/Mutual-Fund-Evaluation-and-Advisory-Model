@@ -72,10 +72,6 @@ Mutual-Fund-Evaluation-and-Advisory-Model/   <br>
 │ ├── lgb.pkl       <br>
 │ └── meta.json         <br>
 │     <br>
-└── docs/         <br>
-├── methodology_diagram.png        <br>
-├── results_summary_table.png        <br>
-└── paper_appendix.pdf         <br>
 <br>
 Each folder and file has a clear purpose — ensuring that anyone reviewing or reproducing this project can follow the exact flow of data, modeling, and analysis from raw ingestion to portfolio outcomes. <br>
 
