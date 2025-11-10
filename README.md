@@ -34,6 +34,7 @@ Mutual-Fund-Evaluation-and-Advisory-Model/   <br>
 │ └── README.md       <br>
 │             <br>
 ├── notebooks/       <br>
+│ ├── phase0_setup.ipynb        <br>
 │ ├── phase1_feature_engineering.ipynb        <br>
 │ ├── phase2_feature_selection.ipynb          <br>
 │ ├── phase3_model_training.ipynb             <br>
