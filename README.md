@@ -53,7 +53,6 @@ Mutual-Fund-Evaluation-and-Advisory-Model/   <br>
 │        <br>
 ├── reports/     <br>
 │ ├── figures/        <br>
-│ │ ├── pr_auc_ci.png           <br>
 │ │ ├── cost_curve_ensemble.png         <br>
 │ │ ├── lift_by_bucket_ensemble.png          <br>
 │ │ ├── bt_equity_base.png       <br>
