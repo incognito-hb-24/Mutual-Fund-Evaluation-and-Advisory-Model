@@ -67,10 +67,10 @@ Mutual-Fund-Evaluation-and-Advisory-Model/   <br>
 │ └── results_summary_classification.csv              <br>
 │     <br>
 ├── models/        <br>
-  ├── logit.pkl     <br>
-  ├── xgb.pkl      <br>
-  ├── lgb.pkl       <br>
-  └── meta.json         <br>
+│  ├── logit.pkl     <br>
+│  ├── xgb.pkl      <br>
+│  ├── lgb.pkl       <br>
+└─ └── meta.json         <br>
  
 <br>
 Each folder and file has a clear purpose — ensuring that anyone reviewing or reproducing this project can follow the exact flow of data, modeling, and analysis from raw ingestion to portfolio outcomes. <br>
